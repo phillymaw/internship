@@ -1,0 +1,97 @@
+
+::selection {
+  background: #4f5362;
+  /* WebKit/Blink Browsers */
+  color: #fff;
+}
+::-moz-selection {
+  background: #4f5362;
+  /* Gecko Browsers */
+  color: #fff;
+}
+html {
+  font-size: 14px;
+}
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 1em;
+    margin-bottom: 1.8em;
+  }
+}
+/****************************
+*      BODY DEFAULTS        *
+****************************/
+body {
+  background-image: url(../images/bg.jpg);
+  font-size: 1em;
+  color:#1a9172;;
+}
+a {
+  color: #37a6c4;
+}
+a:hover {
+  text-decoration: none;
+  color: #5db9d1;
+}
+
+.brdr {
+  border: 1px solid #f0f0f0;
+}
+
+
+/****************************
+*       Margins         *
+****************************/
+.mt {
+  margin-top: 18px;
+}
+.mt-0x {
+  margin-top: 0 !important;
+}
+.mt-2x {
+  margin-top: 36px;
+}
+.mt-3x {
+  margin-top: 54px;
+}
+.mt-4x {
+  margin-top: 90px;
+}
+.mt-5x {
+  margin-top: 144px;
+}
+.mb {
+  margin-bottom: 18px;
+}
+.mb-0x {
+  margin-bottom: 0 !important;
+}
+.mb-2x {
+  margin-bottom: 36px;
+}
+.mb-3x {
+  margin-bottom: 54px;
+}
+.mb-4x {
+  margin-bottom: 90px;
+}
+.mb-5x {
+  margin-bottom: 144px;
+}
+
+ ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

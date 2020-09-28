@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+	<div class="login-page bk-img">
+		<div class="form-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-center text-bold mt-2x">Convid 19 survey form</h1>
+                        <div class="hr-dashed"></div>
+                        <h1>_________________________________________________________</h1>
+						<div class="well row pt-2x pb-3x bk-light text-center">
+                         <form method="post" class="form-horizontal" enctype="multipart/form-data" name="regform" onSubmit="return validate();">
+                            <div class="form-group">
+                            <label class="col-sm-1 control-label">Name<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <input type="text" name="name" placeholder="First name" class="form-control" required>
+                            </div>
+                           <label class="col-sm-1 control-label">Surname<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <input type="text" name="Surname" placeholder="Last name" class="form-control" required>
+                            </div>
+                            </div>
+
+                            <div class="form-group">
+                           <label class="col-sm-1 control-label">Email<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <input type="email" name="email" placeholder="e.g..... covid@gmail.com" class="form-control" required>
+                            </div>
+
+                            <label class="col-sm-1 control-label">Gender<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <!-- <input type="text" name="designation" class="form-control" required> -->
+                            <select class="form-control" name="gender" type="text" >
+                                <option value="agency">Male</option>
+                                <option value="music">Female</option>
+                                <option value="education">Other</option>
+                            </select>
+                            </div>
+                            </div>
+
+                             <div class="form-group">
+                            <label class="col-sm-1 control-label">Location<span style="color:red">*</span></label>
+                            <div class="col-sm-5"> 
+                            <input type="text" name="location" placeholder="province and home-town" class="form-control" required> 
+                            
+                            </div>
+
+                            <label class="col-sm-1 control-label">AGE<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <input type="number" name="AGE" placeholder="18+" class="form-control" required>
+                            </div>
+                            </div>
+
+                            <div class="form-group">
+                           <label class="col-sm-1 control-label">Current role<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <!-- <input type="text" name="designation" class="form-control" required> -->
+                            <select class="form-control" name="designation" type="text" >
+                                <option value="agency">Student</option>
+                                <option value="music">unemployed</option>
+                                <option value="education">Employed</option>
+                                <option value="agency">other</option>
+                            </select>
+                            </div>
+                            
+
+                            <label class="col-sm-1 control-label">Convid effect<span style="color:red">*</span></label>
+                            <div class="col-sm-5">
+                            <!-- <input type="number" name="mobileno" class="form-control" required> -->
+
+                            <textarea type="text" name="description" class="form-control" placeholder="Explain how convid affected your life!" cols="30" rows="5" required></textarea>
+                            </div>
+                            </div>
+                            </div>
+
+                                    <h1>_________________________________________________________</h1>
+								<br>
+                                <div class="col-sm-14" style="text-align: center;">
+                                <button class="btn btn-primary" name="submit" type="submit" success="myFunction()">submit</button>
+                                <script >function myFunction(){alert("You have succesfully submited your survey\n thank you !\n Have a nice day?")}</script>
+                                </div>
+                                </form>
+                                <br>
+                                <br>
+								<p>WE APRECIATE HOW YOU TOOK YOUR TIME TO FILL OUR SURVEY FORM TO HELP OUR COUNTRY TO CAPTURE DATA <a >THANK YOU!!</a>
+                                <b>. WASH YOUR HAND,WEAR YOUR MASK AND STAY HOME <a>BE SAFE</a></b></p>
+                               
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
